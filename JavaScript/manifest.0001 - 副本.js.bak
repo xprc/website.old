@@ -1,0 +1,50 @@
+function send(){
+var name = document.getElementById("input1").value;
+var mail = document.getElementById("input2").value;
+var phone = document.getElementById("input3").value;
+var content = document.getElementById("input4").value;
+if(name=="")
+{
+label2.style.display = 'none';
+label1.style.display = 'none';
+label0.style.display = 'block';;
+return false;
+}
+if(mail=="")
+{
+label3.style.display = 'none';
+label4.style.display = 'none';
+label5.style.display = 'block';;
+return false;
+}
+
+if(content=="")
+{
+        label8.style.display = 'none'; 
+        label9.style.display = 'none'; 
+        label10.style.display = 'block'; //*必填
+        return false;
+}
+else{
+	//成功后处理留言
+
+
+
+alert('信息已发送到站长邮箱，感谢您的支持！\n （您可以离开此页面了！！）');
+var r=confirm("你确定要离开此页面吗？");
+if (r==true)
+  {
+  window.open("../主页1.htm","New_window");
+  window.opener=null;   
+  window.opener=null;    
+  window.close();
+  }
+else
+  {
+  alert("你已取消！！！");
+  }
+}
+
+ 
+
+}

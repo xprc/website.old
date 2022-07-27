@@ -1,0 +1,150 @@
+ /* 版权归 TOMS PROJECT CC 所有
+    版本：1.0.2
+ */
+;(function($,window,document,undefined){
+	var Inits = function(ele,opts){
+		this.$ele = ele,
+		this.defaults = {
+			_width: 1100, //
+			_height: 450,
+			page: 'page', //,
+			btn: true, //true,false
+			nextClass: 'next', // 
+			prevClass: 'prev',	// 
+			nextText: 'next',
+			prevText: 'prev',
+			fade: 'normal', // slow/normal/fast/( 1500)
+			time: '', //()1000\2000...
+			pageNum: false, // true,false
+			pagelocat: true // true/fasle 
+		},
+		this.init = $.extend({}, this.defaults, opts);		
+	}
+	Inits.prototype = {
+		slideFade: function(){
+			var ul = this.$ele.children('ul.list');
+			var li = ul.children('li');
+			li.eq(0).show().siblings('li').hide();
+			var init = this.init;
+			//slide
+			this.$ele.css({
+				position: 'relative',
+				width: init._width+'px',
+				height: init._height+'px',
+				margin: '0 auto'
+			});
+			li.css({
+				position: 'absolute',
+				left: 0,
+				width: init._width+'px',
+				height: init._height+'px'
+			});
+			li.find('img').css({
+				width: '100%',
+				height: '100%'
+			});
+			//page==buiding
+			if (init.page!=''&&init.page!=undefined) {
+				this.$ele.append('<ul class="'+init.page+'"></ul>');
+				// buiding-page
+				for (var i = 0; i < li.length; i++) {
+					if (init.pageNum==true) {
+						$('.'+init.page).append('<li>'+(i+1)+'</li>');
+					}else if(init.pageNum==false){
+						$('.'+init.page).append('<li>&nbsp;</li>');
+					}
+				};
+				var page = $('.'+init.page);
+				var pageli = page.children('li');
+					pageli.css('float', 'left');
+				var pageliw = Math.ceil(pageli.outerWidth(true)+0.05)*pageli.length;
+				var pagetoleft = init._width/2-pageliw/2;
+				pageli.eq(0).addClass('on');
+				page.css({
+					position: 'absolute',
+					width: pageliw+'px'
+				});
+				if (init.pagelocat==true) {
+					page.css('left', pagetoleft+'px');
+				};
+			};
+			//btn==buiding
+			if (init.btn==true) {
+				this.$ele.append('<a href="javascript:;" class="sBtn">'+init.prevText+'</a><a href="javascript:;" class="sBtn">'+init.nextText+'</a>');
+				var btntotop = Math.round(init._height/2-this.$ele.children('a.sBtn').height()/2);
+				this.$ele.children('a.sBtn').css({
+					position: 'absolute',
+					top: btntotop+'px'
+				});
+				if (init.nextClass!=''||init.prevClass!='') {
+					this.$ele.children('a.sBtn').eq(0).addClass(init.prevClass).next('a.sBtn').addClass(init.nextClass);
+				}
+			};
+			//==========
+			var i = 0;
+			var next = function(fade){
+				li.eq(i).fadeOut(fade).next().fadeIn(fade);
+				page.children('li').eq(i).removeClass('on').next().addClass('on');
+				i++;
+				if (i>li.length-1) {
+					i=0;
+					li.eq(i).fadeIn(fade);
+					page.children('li').eq(i).addClass('on');
+				}
+			};
+			var prev = function(fade){
+				console.log(li.length);
+
+				if (i==0) {
+					i=li.length-1;
+					li.eq(0).fadeOut(fade);
+					li.eq(i).fadeIn(fade);
+					page.children('li').eq(0).removeClass('on');
+					page.children('li').eq(i).addClass('on');
+				}else{
+					li.eq(i).fadeOut(fade).prev().fadeIn(fade);
+					page.children('li').eq(i).removeClass('on').prev().addClass('on');
+					i--;
+				}
+			}
+			//
+			$('.next').click(function(event) {
+				next(init.fade);
+			});
+			//
+			$('.prev').click(function(event) {
+				prev(init.fade);
+			});
+			// 
+			if (init.time!=''&&init.time!=undefined) {
+				var timeRun = setInterval(next,init.time);
+				//
+				li.each(function(index, el) {
+					$(this).mouseover(function(event) {
+						clearInterval(timeRun);
+					}).mouseout(function(event) {
+						timeRun = setInterval(next,init.time);
+					});
+				});
+			};
+			if (init.page!=''&&init.page!=undefined) {
+				//
+				pageli.each(function(index, el) {
+					$(this).click(function(event) {
+						console.log(index);
+						i=index;
+						console.log(i);
+						li.eq(i).fadeIn(init.fade).siblings('li').fadeOut(init.fade);
+						page.children('li').eq(i).addClass('on').siblings('li').removeClass('on');
+					});		
+				});
+			};
+		}//slideFade end
+	}
+	// 
+	$.fn.MdsSlideFade = function(opts){
+		var inits = new Inits(this,opts);
+		return inits.slideFade();
+	}
+
+})(jQuery, window, document);
