@@ -22,7 +22,7 @@
 <link rel="icon" type="image/Icon" href="/image/Icon/big/1.png"/>
 <link rel="icon" type="image/Icon" href="/image/Icon/big/1.ico"/>
 <script type="text/javascript">
-       /* function browserRedirect() {
+       function browserRedirect() {
             var sUserAgent = navigator.userAgent.toLowerCase();
             var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
             var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
@@ -34,16 +34,16 @@
             var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
             if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
             	//olded
-                window.open("https://test.projectoms.com/old/phone", "_self");
+                window.open("./old/phone", "_self");
 
             } 
             else {
             	//olded
-                window.open("https://test.projectoms.com/old/pc", "_self");
+                window.open("./old/pc", "_self");
             }
         }
 
-        browserRedirect();*/
+        browserRedirect();
     </script>
 </head>
 
