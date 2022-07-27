@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>你好啊！</title>
+</head>
+
+<body  onload='setTimeout("mm()",5000)'>
+<p style="font-size:inherit">我是病毒！</p>
+<script type="">
+function mm(){  
+window.open("呵呵.htm","New_window");
+}
+</script>
+<script type="">
+function mm(){  
+window.opener=null;   
+window.opener=null;    
+window.close();
+window.opener=null; 
+} 
+</script>
+
+<a target="_blank" href="呵呵1.htm">打击我</a>
+<script type="">
+window.open("呵呵.htm","New_window");
+
+</script>
+</body>
+
+</html>

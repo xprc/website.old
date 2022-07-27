@@ -1,0 +1,213 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui" >
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes" >
+<meta name="keywords" content="TP,toms project,官网,tp,Toms project,Tp,TOMS PROJECT,tP,Toms Project,tomsproject,TOMSPROJECT,首页,主页,官方网站,视频网站,编程,张阳扬,帅哥,最棒,静态网页">
+<meta name="Keywords" content="TP,toms project,官网,tp,Toms project,Tp,TOMS PROJECT,tP,Toms Project,tomsproject,TOMSPROJECT,首页,主页,官方网站,视频网站,编程,张阳扬,帅哥,最棒,静态网页">
+<meta name="description" content="你没有看错！！不要再犹豫了，这就是YOUTUBER Toms Project ，推特中最著名Toms Project 的官方网站！！还在想什么？赶紧单击鼠标进来看看吧！！！你会觉得不可思议的！！还在犹豫？如果你是一个程序猿，这里面肯定有你喜欢的C/C++,PHP,JS,HTML+CSS,ASP等等等等的项目！！！！如果你喜欢玩游戏，这里可有我亲手为你准备的不下100款游戏！！！！有的不止这些！！！像精彩文章，超级好看的视频，等等一切都有！！！还等什么，单击鼠标进来看看吧！！！！！！" >
+<meta name="Description" content="你没有看错！！不要再犹豫了，这就是YOUTUBER Toms Project ，推特中最著名Toms Project 的官方网站！！还在想什么？赶紧单击鼠标进来看看吧！！！你会觉得不可思议的！！还在犹豫？如果你是一个程序猿，这里面肯定有你喜欢的C/C++,PHP,JS,HTML+CSS,ASP等等等等的项目！！！！如果你喜欢玩游戏，这里可有我亲手为你准备的不下100款游戏！！！！有的不止这些！！！像精彩文章，超级好看的视频，等等一切都有！！！还等什么，单击鼠标进来看看吧！！！！！！" >
+<meta property="og:type" content="website" >
+<meta property="og:description" content="你没有看错！！不要再犹豫了，这就是YOUTUBER Toms Project ，推特中最著名Toms Project 的官方网站！！还在想什么？赶紧单击鼠标进来看看吧！！！你会觉得不可思议的！！还在犹豫？如果你是一个程序猿，这里面肯定有你喜欢的C/C++,PHP,JS,HTML+CSS,ASP等等等等的项目！！！！如果你喜欢玩游戏，这里可有我亲手为你准备的不下100款游戏！！！！有的不止这些！！！像精彩文章，超级好看的视频，等等一切都有！！！还等什么，单击鼠标进来看看吧！！！！！！" >
+<meta http-equiv="expires" content="1 Dec 2018">
+<meta name="robots" content="all" >
+<meta name="author" content="张阳扬" >
+<meta name="Copyright" content="Copyright © 2008 - 2018 TomsProject (BeiJing) Network Co.,Ltd. All Rights Reserved.汤姆的项目网络科技有限公司 版权所有" >
+<title>61毕业小电影0010--ADOBE Flash Player | Toms Project | Toms Project 移动端网页</title>
+
+<script type="text/javascript">var ssdsdsdd = "73"+"98156"+"7936"+"94" var .cmp4 = "%2E%6D%70%34"</script>
+<meta  content="charset=utf-8">
+<!--link rel="stylesheet" type="text/css" href="../video/css/common.css"-->
+<style type="text/css">
+@media only screen and (min-width : 320px) and (max-width : 768px){ body { width:100%; margin:0 auto;} div.piclist {padding:10px; height: 300px; overflow:hidden; } } 
+@media only screen and (min-width : 992px) and (max-width : 1920px){ body { width:980px; margin:0 auto;} } 
+#CuPlayer div.CuPc{ width:80%; height:450px;margin:0 auto; }
+#CuPlayer div.CuMob{ width:80%; height:400px;margin:0 auto;position: relative; }
+#CuPlayer div.CuPad{ width:80%; height:450px;margin:0 auto; }
+#CuPlayer .video-js{ width:100%; height:100%;}
+video::-webkit-media-controls-enclosure { display: none !important;}
+.ber{
+				background-color:gray;
+				
+}
+.style1 {
+				text-align: center;
+				font-size: xx-large;
+}
+.ddd{
+		        		 background-color:silver;
+		        border-radius:25px;
+                -moz-border-radius:25px;
+                border:2px solid #a1a1a1;
+}
+.ll{
+				font-size:xx-small;
+				margin-left:10%;
+		       text-align:left;
+}
+
+
+
+.style2 {
+				font-size: x-large;
+}
+
+
+
+.style3 {
+				
+}
+.style4 {
+				text-align: center;
+				background-color: #FFFF00;
+}
+.footer_copyright
+{
+				background-color:aqua;
+				color:white;
+			    text-align:center;
+			    height:220px;
+			    font-size:19px;
+}
+.h5ioran{
+				font-size:20px;
+				color:yellow;
+				text-align:center;
+}
+.nos{
+				text-align:center;
+				color:red;
+				font-size:60px;
+				width:80%;
+				margin-left:11%;
+}
+
+</style>
+<link rel="icon" type="../../image/图标" href="../../image/图标/big/1.png">
+<link rel="icon" type="../../image/图标" href="../../image/图标/big/1.ico">
+</head>
+<body class="ber"> 
+<h1>
+<marquee behavior="alternate" style="color:white;font-size:30px;width:90%;margin-top:10px" scrollamount="10" scrolldelay="1">61毕业小电影0010</marquee></h1>
+<div class="ddd" style="width: 90%; height: 44px">
+<div > <br class="ll">
+<span lang="zh-cn">&nbsp;&nbsp; </span><img src="../../image/框架/arrowg.gif"alt=""> 
+<a href="../主页.htm" style="text-decoration:none;color:blue">首页</a>
+--&gt;当前位置</div>
+</div>
+<div class="nos">
+<noscript class="nos">
+<pre>
+<b>
+OMG!!!!我们检测到你的浏览器可能因为太古老
+不支持JavaScript的功能或者你没有对我们开启
+Script功能的权限，请使用支持JavaScript功能
+的浏览器或者开启Script权限，谢谢合作!!!!!
+</b>
+</pre>
+</noscript>
+</div>
+<div class="video" id="CuPlayer" style="margin-top:35px;">
+<script type="text/javascript">
+var wert = 1+1+1+1;
+var cmm = 79-1+1-1+1-1+1-1+1-1+1-78+1;
+var vID        = "c1";                   
+var vWidth     = "100%";                
+var vHeight    = "100%";            
+var vFile      = "../../xml/CuSunV4set.xml";      
+var vPlayer    = "../../swf/player.swf?v=4.0";    
+var vPic       = "../../image/video/pic/pic01.jpg";        
+var vCssurl    = "../../css/videos.min.css";   
+var vAutoPlay  = "yes";                  
+var vEndTime   = 0;                     
+var vLogoPath  = "../../image/video/logo.png";      
+var vPlayMod   = 1+1;                      
+var vMp4url    = "ht"+"t"+"p://"+"1256"+"79"+"9889"+".vo"+"d"+cmm+".m"+"yq"+"clo"+"ud."+"com/"+"1c51d13"+"f"+"vodg"+"zp12"+"56799"+"889/6"+"656c"+"e78744"+"73"+"98156"+"7936"+"94"+"412/"+/*想盗链？？？？？？？*/"l1HTwy"+"3x1Uw"+"A"+"."+"m"+/*hfbsdhkfbsdkhjbvhsjfbekhfbsjhfbweyfioehyifheofndshofbsdhfobsdfhncisnfifnusfnsdnfsufnsdfnsdf*/"p"+wert;
+</script>
+<script class="CuPlayerVideo" data-mce-role="CuPlayerVideo" type="text/javascript" src="../../javascript/player.min.js"></script>
+</div>
+<div class="help">
+<div class="code" align="center">
+</div>
+</div>
+<div style="display:none;">
+<script type="text/javascript" src="http://www.cuplayer.com/CuPlayer/js/stat.js"></script>
+</div>
+<div title="点我去为此视频留言！！！" style="text-align:right;color:lime;margin-right:10%"><h1><a href=""><button style="height:40px;width:100px;font-size:15px">点我留言</button></a></h1></div>
+<div class="h5ioran">
+<h2>当前您使用的是 ADOBE Flash Player 播放器<br> <a href="video-610010-h5.html" style="color:blue">点我</a> 切换为 HTML5 网页播放器</h2>
+</div>
+<div>
+<h3 style="text-align:center;font-size:35px;color:red">
+OMG!!!现在你可以
+<a onclick="opens()" target="_blank" style="color:blue" href="https://pan.baidu.com/s/113bKVJxQDw_aEqfHmEWkQg">下载</a>此视频！！！</h3>
+</div>
+<div class="footer_copyright">  
+<p class="pco"> Copyright © 2008 - <span id="footyear"></span><br> TomsProject (BeiJing) Network Co.,Ltd. All Rights Reserved.<br><em>汤姆的项目网络科技有限公司 版权所有</em></p>                   
+<p>本站由 张阳扬 开发制作</p>
+<p>粤ICP备16063159号</p>  
+   
+</div> 
+<script type="text/javascript">
+function opens()
+{
+alert("注：下载密码：0uu5")
+}
+</script>
+<script type="text/javascript">  
+ <!--2008-2018TomsProject (BeiJing) Network Co.,Ltd. All Rights Reserved.-->
+ function clock(){  
+  var time=new Date();  
+  var week;  
+  switch (time.getDay()){         
+    case 1: week="星期一"; break;  
+    case 2: week="星期二"; break;  
+    case 3: week="星期三"; break;  
+    case 4: week="星期四"; break;  
+    case 5: week="星期五"; break;  
+    case 6: week="星期六"; break;  
+    default: week="星期日";  
+  }  
+    var year=time.getFullYear();  
+    var month=time.getMonth();  
+    var date=time.getDate(); 
+    var huor=time.getHours(); 
+    var second=time.getSeconds(); 
+    var minute=time.getMinutes();
+    document.getElementById("footyear").innerHTML = year;  
+  }  
+  setInterval(clock,1000);  
+</script> 
+<script type="text/javascript">
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+</body>
+</html>
